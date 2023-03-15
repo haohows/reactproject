@@ -4,7 +4,10 @@ const Edit = () => {
         <p>記事：</p>
         <input type="text" />
         <p>時間：</p>
-        <input type="text" />
+        <input type="date" />
+        <p>時間：</p>
+        <input type="time" />
+        <button className="add">新增</button>
     </div>
 }
 
