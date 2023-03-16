@@ -1,6 +1,6 @@
-const Item = () => {
+const Item = ({ info }) => {
     return <div className="item">
-    123
+     {info}
         <button className="remove">刪除</button>
     </div>
 }
