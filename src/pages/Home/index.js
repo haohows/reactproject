@@ -9,7 +9,7 @@ const Home = () => {
 
     return <section className="wrap">
         <div className="app">
-            <Edit />
+            <Edit add={setData} />
             <List listData={data} />
         </div>
     </section>
