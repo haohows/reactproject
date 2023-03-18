@@ -1,6 +1,9 @@
-const Item = ({ info }) => {
+const Item = ({ note, date, time }) => {
     return <div className="item">
-     {info}
+        <div>
+            <p>{note}</p>
+            <p>{`${date} ${time}`}</p>
+        </div>
         <button className="remove">刪除</button>
     </div>
 }
